@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="shortcut icon" href="https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/pie-icon.png" type="image/x-icon">
+  <title>Grandma’s Recipes</title>
+
+  
+</head>
+<body>
+
+
+  <header>
+    <h1>Grandma’s Kitchen</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Recipes</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+ 
+  <section class="hero" id="about">
+    <h2>Welcome to Grandma’s Kitchen</h2>
+    <p>Pull up a chair and explore the comforting tastes of home-cooked classics passed down through generations.</p>
+  </section>
+
+
+  <section class="recipes" id="recipes">
+    <article class="recipe-card">
+      <a href="pie.html">Grandma’s Lemon Meringue Pie</a>
+    </article>
+    <article class="recipe-card">
+      <a href="#">Classic Chicken Pot Pie</a>
+    </article>
+    <article class="recipe-card">
+      <a href="#">Hearty Beef Stew</a>
+    </article>
+    <article class="recipe-card">
+      <a href="#">Homestyle Apple Crumble</a>
+    </article>
+    <article class="recipe-card">
+      <a href="#">Buttermilk Pancakes</a>
+    </article>
+  </section>
+
+ 
+  <footer id="contact">
+    &copy; <span id="year"></span> Grandma’s Kitchen &bull;
+  </footer>
+
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+body {
+  
+  background-color: white;
+  color: #404040;
+  font-size: 11pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 50vw;
+  margin: auto;
+  
+}
+.main{
+  background-image: url("https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/silverware.jpg");
+}
+
+h1 {
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-family: "Lucida Sans Unicode", Helvetica, Verdana, Arial;
+  text-decoration: underline;
+  font-size: 18pt;
+  font-weight: normal;
+  letter-spacing: 0.25em;
+  display: inline-block;
+}
+
+.hero-heading {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+.directions ol li span:first-of-type {
+  font-weight: bold;
+}
+
+.user-comments p {
+  background-color: #ffffa8;
+  margin: 15px 0px 15px 40px;
+  font-style: italic;
+}
+
+.links a {
+  display: block;
+  color: #a4a400;
+}
+
+.footer {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: monospace;
+  line-height: 1.4
+}
+
+ul{
+  list-style: url("https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/pie-icon.png");
+}
